@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: Montserrat;
+	box-sizing: border-box;
+	overflow: auto;	
+}
+
+@media only screen and (min-width: 360px){
+	body{
+		
+		
+		grid-template-columns: 1fr;
+		
+		grid-template-areas: 
+		"gal";
+	}
+}
+
+
+
+.navegacion{
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-end;
+	color: black;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.links{
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+	
+.fondobotones{
+	background-color: lightgray;
+	border-top: solid;
+	border-bottom: solid;
+	border-width: 5px;
+}
+
+.espacionav{
+	padding-right: 40px;
+}	
+html{ font-size: 62.5%;
+	background-color: black;
+}
+
+nav{
+	background-color: gray;
+	text-decoration: none;
+	
+}
+a{
+	color: black;
+	text-decoration: none;
+	text-decoration-style: none;
+}
+
+main{
+	background-color: gray;
+
+	
+}
+
+.display_flex{
+	display: flex;
+	flex-direction: row;
+	
+}
+
+.galerias{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1;
+	grid-template-areas: 
+	"gal gal gal";
+	justify-content: center;
+	
+	
+	object-fit: contain;
+}
+
+.principal{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1;
+	grid-template-areas: 
+	"prin prin";
+}
+
+contenedor_texto{
+	padding-top: 5px;
+	width: 100%;
+	padding-right: 30px;
+	padding-left: 45 px;
+	padding-bottom: 20px;
+}
+
+.estiloparrafo{
+	color:whitesmoke;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5rem;
+	line-height: 2.1rem;
+	font-weight: 300;
+	text-align: left;
+	padding: 60px 40px 5px 50px;
+	width: 100%;
+	justify-content: center;
+}
+
+.cajavideo{
+	padding: 30px 40px 30px 20px;
+	width: 100%;
+	justify-content: center;
+}
+
+.width100{
+	width: 100%;
+}
+.container_pie{
+	padding: 20px;
+	background-color: black;
+	flex-direction: column;
+	column-gap: 30px;
+	width: 50% ;
+	color:whitesmoke;
+	padding-top: 20px;
+	padding-bottom: 10px;
+
+}
+
+.container_pie2{
+	padding: 20px;
+	background-color: black;
+	flex-direction: column;
+	column-gap: 30px;
+	width: 50% ;
+	color:whitesmoke;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	justify-content:flex-end;
+
+}
+
+.size{
+	 height: 40%;
+  	max-width: 50%;
+}
+.display_footer{
+	display: flex;
+}
+
+.gap{
+	padding-bottom: 10px;
+}
+
+h2 {
+	font-size: 1.3rem;
+	color: whitesmoke;
+}
+
+.enlacenodo{
+	font-size: 1rem;
+	color: whitesmoke;
+	text-decoration: none;
+	text-decoration-style: none;
+
+}	
+	

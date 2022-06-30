@@ -28,11 +28,14 @@
 	color: black;
 	padding-top: 6px;
 	padding-bottom: 6px;
+
 }
 
 .links{
 	text-decoration: none;
 	font-size: 1.5rem;
+
+
 }
 	
 .fondobotones{
@@ -42,8 +45,20 @@
 	border-width: 5px;
 }
 
+.degradado{
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(134,126,126,1) 70%);;
+}
+
 .espacionav{
 	padding-right: 40px;
+}
+
+.movimiento:{
+	transform: translate(-50px);
+}
+.rotate:{
+	transform: rotate(45deg);
 }	
 html{ font-size: 62.5%;
 	background-color: black;
@@ -110,6 +125,7 @@ contenedor_texto{
 	padding: 60px 40px 5px 50px;
 	width: 100%;
 	justify-content: center;
+
 }
 
 .cajavideo{
@@ -169,5 +185,10 @@ h2 {
 	text-decoration: none;
 	text-decoration-style: none;
 
+}
+
+.rotate {
+	-webkit-animation: rotate-scale-up 0.65s linear both;
+	        animation: rotate-scale-up 0.65s linear both;
 }	
 	
